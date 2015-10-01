@@ -1,0 +1,1 @@
+<p> Individuals with disabilities are encouraged to take this survey. If you are a person with a disability who requires a reasonable accommodation in order to take this survey, please contact the Offie of the VP for Student Life at 319-335-3557. </p> 
