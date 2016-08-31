@@ -1,2 +1,12 @@
 @import "../../../../division-project/scss/imports/_config.scss";
 @import "../../../../division-project/scss/imports/_mixins.scss";
+
+:target {
+	background: yellow !important;
+}
+
+.main-content {
+	sup {
+		font-size: rem-calc(14);
+	}
+}
