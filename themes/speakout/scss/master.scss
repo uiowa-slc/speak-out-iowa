@@ -1,6 +1,11 @@
 /* Global
 -------------------------------------------*/
+
 @import "../../../division-project/scss/master";
 
+@import "imports/variables";
+
+@import "../../../division-project/bower_components/foundation/scss/foundation/components/tooltips";
+
 /* Theme specific styles */
-@import "imports/_theme.scss"
+@import "imports/_theme.scss";

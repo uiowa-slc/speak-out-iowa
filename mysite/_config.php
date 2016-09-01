@@ -44,7 +44,7 @@ HtmlEditorConfig::get('cms')->setOptions(array(
     HtmlEditorConfig::get('cms')->setOption(
         'extended_valid_elements', 
         'a[id|rel|rev|dir|tabindex|accesskey|type|name|href|target|title|class|aria-label|aria-describedby],'.
-        'span[id|class|style|title]'
+        'span[id|class|style|title|data-tooltip|aria-haspopup|data-definition-id]'
     );
 
 

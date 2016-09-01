@@ -16,7 +16,7 @@ module.exports = function(grunt) {
       dist: { 
         files: {
           '<%=globalConfig.themeDir %>/css/master.css' : '<%=globalConfig.themeDir %>/scss/master.scss',
-          '<%=globalConfig.themeDir %>/css/editor.css' : 'division-project/scss/editor.scss'
+          '<%=globalConfig.themeDir %>/css/editor.css' : '<%=globalConfig.themeDir %>/scss/editor.scss'
         },                  // Target
         options: {              // Target options
           style: 'compressed',
@@ -30,8 +30,14 @@ module.exports = function(grunt) {
     concat: {
       js:{
         src: [
-          'division-project/build/build.src.js'],
-        dest: '<%=globalConfig.themeDir %>/build/build.src.js'
+          'division-project/build/build.src.js',
+          'division-project/bower_components/foundation/js/foundation.js',
+          'division-project/bower_components/foundation/js/vendor/modernizr.js',
+          'division-project/bower_components/foundation/js/foundation/foundation.tooltips.js',
+          '<%=globalConfig.themeDir %>/js/main.js'
+          ],
+        dest: '<%=globalConfig.themeDir %>/build/build.src.js',
+
       }
     },
 
