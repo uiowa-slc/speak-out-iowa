@@ -58,3 +58,5 @@ GD::set_default_quality(80);
 if (Director::isLive()) {
 	Director::forceSSL();
 }
+
+Object::add_extension("SiteTree", "FilesystemPublisher('cache', 'php')");

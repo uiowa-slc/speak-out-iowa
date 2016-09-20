@@ -22,22 +22,22 @@ ErrorDocument 500 /assets/error-500.html
   RewriteEngine On
 ## CONFIG FOR DEV ENVIRONMENTS
 
-# Cached content - {project-name} subdirectory
+# Cached content - speak-out-iowa subdirectory
 RewriteCond %{REQUEST_METHOD} ^GET$
 RewriteCond %{QUERY_STRING} ^$
-RewriteCond %{REQUEST_URI} ^/{project-name}/(.*)$
-RewriteCond %{REQUEST_URI} /{project-name}/(.*[^/])/?$
-RewriteCond %{DOCUMENT_ROOT}/{project-name}/cache/%1.html -f
+RewriteCond %{REQUEST_URI} ^/speak-out-iowa/(.*)$
+RewriteCond %{REQUEST_URI} /speak-out-iowa/(.*[^/])/?$
+RewriteCond %{DOCUMENT_ROOT}/speak-out-iowa/cache/%1.html -f
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule .* /{project-name}/cache/%1.html [L]
+RewriteRule .* /speak-out-iowa/cache/%1.html [L]
 
 # Cached content - homepage
 RewriteCond %{REQUEST_METHOD} ^GET$
 RewriteCond %{QUERY_STRING} ^$
-RewriteCond %{REQUEST_URI} ^/{project-name}/?$
-RewriteCond /{project-name}/cache/index.html -f
+RewriteCond %{REQUEST_URI} ^/speak-out-iowa/?$
+RewriteCond /speak-out-iowa/cache/index.html -f
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule .* /{project-name}/cache/index.html [L]
+RewriteRule .* /speak-out-iowa/cache/index.html [L]
 
 ## CONFIG FOR TEST/LIVE ENVIRONMENTS
 
