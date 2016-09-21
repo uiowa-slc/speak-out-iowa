@@ -59,4 +59,4 @@ if (Director::isLive()) {
 	Director::forceSSL();
 }
 
-Object::add_extension("SiteTree", "FilesystemPublisher('cache', 'php')");
+Object::add_extension("SiteTree", "FilesystemPublisher('cache', 'html')");
