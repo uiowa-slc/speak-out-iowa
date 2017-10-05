@@ -85,7 +85,7 @@
         },
         {
             "name": "composer/installers",
-            "version": "dev-master",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
@@ -198,7 +198,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2017-08-09 07:53:48"
+            "time": "2017-08-09T07:53:48+00:00"
         },
         {
             "name": "embed/embed",
@@ -542,12 +542,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "50a977d6e9805870379991a6d57c3e7c1d015079"
+                "reference": "f26d9c7c6d463619836cf8bd2efa237d4d6e3417"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/50a977d6e9805870379991a6d57c3e7c1d015079",
-                "reference": "50a977d6e9805870379991a6d57c3e7c1d015079",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/f26d9c7c6d463619836cf8bd2efa237d4d6e3417",
+                "reference": "f26d9c7c6d463619836cf8bd2efa237d4d6e3417",
                 "shasum": ""
             },
             "require": {
@@ -597,7 +597,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2.0.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2017-10-04 20:52:45"
+            "time": "2017-10-05 21:36:14"
         },
         {
             "name": "md/rss-display",
@@ -1672,16 +1672,16 @@
         },
         {
             "name": "silverstripe/secureassets",
-            "version": "dev-master",
+            "version": "1.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-secureassets.git",
-                "reference": "8403f15f22f8ec807e60234f5c7597718036fa28"
+                "reference": "f45438899e19aee13f639685c15d8639f5154a91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-secureassets/zipball/8403f15f22f8ec807e60234f5c7597718036fa28",
-                "reference": "8403f15f22f8ec807e60234f5c7597718036fa28",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-secureassets/zipball/f45438899e19aee13f639685c15d8639f5154a91",
+                "reference": "f45438899e19aee13f639685c15d8639f5154a91",
                 "shasum": ""
             },
             "require": {
@@ -1691,11 +1691,6 @@
                 "silverstripe/cms": "Allows you to easily edit file permissions in the CMS"
             },
             "type": "silverstripe-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                }
-            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
@@ -1714,7 +1709,7 @@
                 "secure",
                 "silverstripe"
             ],
-            "time": "2017-08-04 01:29:44"
+            "time": "2017-08-25 04:44:46"
         },
         {
             "name": "silverstripe/segment-field",
