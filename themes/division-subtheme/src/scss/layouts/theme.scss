@@ -1,29 +1,24 @@
-.footer-logo-area {
-	border-top: 1px solid #ddd;
-	padding: 20px 0;
-	font-size: 15px;
-	p{
-		margin: 0.6667em 0;
-	}
+.hero {
 
-}
+    &--content {
+        @include breakpoint(medium) {
+            &:after {
+                background: none;
+            }
+        }
+    }
 
-.footer-logo-area__logo{
-	max-height: 160px;
-	display: block;
-	margin: auto;
-}
+    &--center {
 
-#mc_embed_signup form {
-	padding: 0;
-	width: 280px;
-}
+        @include breakpoint(medium) {
 
-#mc_embed_signup input {
-	border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
-}
-#mc_embed_signup .clear{
-	clear: none;
-	display: inline;
-	float: none;
+            &:after {
+                background: none;
+            }
+        }
+    }
+
+    &__content h2 {
+        color: #000;
+    }
 }
